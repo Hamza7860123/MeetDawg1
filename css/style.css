@@ -1,0 +1,72 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  border-radius: 0.75rem;
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+
+
+.jumbotron{
+
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+
+.maya{
+  height: 200px;
+  border-radius: 50%;
+}
+.heading {
+  color: white;
+  padding: 50px;
+  justify-content: left;
+  font-size: 100px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: -60px; /* Adjust the value as needed */
+  margin-bottom: 70px;
+}
+
+
+.text-muted{
+  margin-left: 10px;
+}
+
+.testimonial {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
